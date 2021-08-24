@@ -1,0 +1,156 @@
+/* Dashboard related CSS */
+
+#dashboard {
+    display: none;
+}
+#posts {
+    padding-top: 60px;
+}
+#allPosts {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.postBox {
+    border: 1px solid #dbdbdb;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 500px;
+    text-align: center;
+}
+.postDiv {
+    margin: 5px;
+    text-align: left;
+}
+.likePostDiv {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.likePostDiv:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.timstampPostDiv {
+    color: grey;
+}
+.commentPostDiv {
+    color: grey;
+}
+.commentPostDiv:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.authorPostDiv {
+    margin-left: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+.authorPostDiv:hover {
+    text-decoration: underline;
+}
+.image-div {
+    border: 1px solid black;
+    width: 99.5%;
+}
+.no-more-posts {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    display: none;
+}
+.postButtons {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #2c78f2;
+    text-align: center;
+    margin: auto;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #2c78f2;
+    color: white;
+    cursor: pointer;
+    width: 46%;
+    margin-top: 5px;
+}
+.postButtons:hover {
+    background-color: white;
+    color: #2c78f2;
+}
+.likeButton {
+    margin-right: 10px;
+}
+.likedButton {
+    background-color: white;
+    color: #2c78f2;
+    margin-right: 10px;
+    cursor: default;
+}
+#myProfile {
+    width: 150px;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #2c78f2;
+    color: #2c78f2;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    right: 20px;
+    position: fixed;
+}
+#myProfile:hover {
+    background-color: #2c78f2;
+    border: 1px solid #2c78f2;
+    color: white;
+    border: none;
+}
+#userSearch {
+    text-align: center;
+    font-size: 14pt;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px 0px 0px 5px;
+    width: auto;
+    max-width: 500px;
+    padding: 3px 0px;
+}
+::placeholder {
+    color: #9c9c9c;
+}
+#submitSearch {
+    background-color: #2c78f2;
+    display: none;
+    fill: white;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+@media (max-width: 600px) {
+    #userSearch {
+        top: 45px;
+        width: 150px;
+        right: 20px;
+        position: fixed;
+    }
+    #submitSearch {
+        top: 45px;
+        right: 20px;
+        position: fixed;
+    }
+    #myHeader {
+        height: 60px;
+    }
+    #myProfile {
+        top: 5px;
+    }
+    #posts {
+        padding: 90px;
+    }
+}

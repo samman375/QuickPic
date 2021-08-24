@@ -1,0 +1,13 @@
+- Search bar to search for users
+- Follow button is automatically changed to unfollow when clicking on a profile already followed
+- Like button is automatically changed to Liked when clicking on a profile already liked
+- Search button on search bar disappears when no input present
+- Input field functions can be executed with 'enter' key
+- My profile button disappears when already on my profile
+- When user does not follow anyone a message appears
+- Message when no likes / comments
+- When user has no more posts to see a message appears
+- Like by num people message changes from people to person when only 1 like
+- Quickpic icon can be also be clicked to return to feed page
+- Added back button from profile page back to feed
+- Switching to another page and back refreshes the info on the page (no full refresh required)
