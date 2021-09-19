@@ -3,8 +3,9 @@
 - This project had a focus on understanding the mechanics of fundamental JavaScript.
 - Project Spec can be found in spec.md.
 - To run application:
-    - Move all code and folders except 'backend' into a new folder named 'frontend'
-    - To run server use this command in the terminal: ```python3 -m http.server```
-    - To open the frontend use the provided url (most likely: http://localhost:8000)
+    - **WARNING: Starting the application is currently bugged and I'm working on a fix.**
+    - ~~Move all code and folders except 'backend' into a new folder named 'frontend'~~
+    - ~~To run server use this command in the terminal: ```python3 -m http.server```~~
+    - ~~To open the frontend use the provided url (most likely: http://localhost:8000)~~
 - Some later functionality (around milestone 5-7) may not be implemented or may be bugged.
 - A final mark of 79.9/100 was awarded and was worth 30% of grade.
