@@ -1,4 +1,4 @@
-- Assignment was completed individually in T1 2021 for Web Front-end Programming.
+- Assignment was completed individually in T1 2021 for COMP6080:Web Front-end Programming.
 - Task was to create the frontend for a single-page web application (similar to Instagram).
 - This project had a focus on understanding the mechanics of fundamental JavaScript.
 - Project Spec can be found in spec.md.
